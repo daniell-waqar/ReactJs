@@ -1,0 +1,102 @@
+body {
+    background: #f7f7f7;
+    padding: 60px 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .notes__title {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .note {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    float: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .note:hover {
+    transform: translateY(-5px);
+  }
+  
+  .note h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .note button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .note button:hover {
+    background: #2980b9;
+  }
+  
+  form.create-note {
+    width: 480px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  form.create-note input,
+  form.create-note textarea {
+    width: calc(100% - 20px);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  form.create-note textarea {
+    height: 100px;
+  }
+  
+  form.create-note button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  form.create-note button:hover {
+    background: #2980b9;
+  }
+  
