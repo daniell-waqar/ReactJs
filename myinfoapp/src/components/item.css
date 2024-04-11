@@ -1,0 +1,15 @@
+
+
+.item{
+    text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+
+.children-wrapper {
+  
+    color: black;
+    font-size: 25px;
+    text-align: left;
+  }
